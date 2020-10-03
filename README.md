@@ -29,6 +29,20 @@ Once you downloaded the repo, install the npm dependencies executing the followi
 ```
 npm i
 ```
+In Windows you need to launch this command
+
+```
+npm install --save-dev  --unsafe-perm node-sass
+```
+
+if you got this error : 
+
+```
+Failed to compile.
+
+./src/_index.scss
+Module build failed: Error: Cannot find module 'node-sass'
+```
 
 ### Run the SPA
 
